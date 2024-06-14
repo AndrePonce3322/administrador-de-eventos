@@ -1,5 +1,3 @@
-'use client'
-
 import EventCard from '@/components/event-card';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import CreateIcon from '@mui/icons-material/Create';
@@ -41,7 +39,7 @@ export default function Account() {
             <span className='flex items-center gap-1'>
               <HttpsIcon className='text-gray-500' /> ***********
             </span>
-            <Button variant='text' className='!capitalize' onClick={() => alert('¿👀?')}>
+            <Button variant='text' className='!capitalize'>
               Ver contraseña
             </Button>
           </div>
