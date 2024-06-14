@@ -1,7 +1,10 @@
+'use client'
+
 import EventCard from '@/components/event-card';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import CreateIcon from '@mui/icons-material/Create';
 import HttpsIcon from '@mui/icons-material/Https';
+import { Button } from '@mui/material';
 
 export default function Account() {
   return (
@@ -29,14 +32,18 @@ export default function Account() {
             <span>
               <AlternateEmailIcon className='text-gray-500' /> andreponce@gmail.com
             </span>
-            <span className='text-blue-500'>Editar</span>
+            <Button variant='text' className='!capitalize'>
+              Editar
+            </Button>
           </div>
 
           <div className="flex items-center justify-between">
             <span className='flex items-center gap-1'>
               <HttpsIcon className='text-gray-500' /> ***********
             </span>
-            <span className='text-blue-500'>Ver contraseña</span>
+            <Button variant='text' className='!capitalize' onClick={() => alert('¿👀?')}>
+              Ver contraseña
+            </Button>
           </div>
         </div>
       </div>
