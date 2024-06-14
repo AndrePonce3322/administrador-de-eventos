@@ -54,7 +54,7 @@ export default function Home() {
                 <a href="https://terminos-y-condiciones" className="text-blue-600">Terminos y condiciones</a>
               </p>
 
-              <Link href={'/events'} className="w-full">
+              <Link href={'/home'} className="w-full">
                 <Button className="!bg-gray-900 w-full" variant="contained">Iniciar Sesión</Button>
               </Link>
               <span className="text-xs text-right text-gray-600 font-medium underline">¿Olvidaste tu contraseña?</span>
