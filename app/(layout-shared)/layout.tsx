@@ -15,7 +15,9 @@ export default function HomeLayout({ children }: { children: React.ReactNode }) 
           <NotificationsIcon className='size-6' />
         </div>
       </header>
+      
       {children}
+
       <Footer />
     </>
   )

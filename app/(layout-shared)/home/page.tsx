@@ -23,6 +23,7 @@ export default function Home() {
               date='julio 15, 2024'
               endDate='julio 17, 2024'
               eventGoal='Crear soluciones innovadoras en 48 horas'
+              isEventInProcess
             />
 
             <EventCard
@@ -31,6 +32,7 @@ export default function Home() {
               date='agosto 5, 2024'
               endDate='agosto 6, 2024'
               eventGoal='Inspirar acciones para un futuro más verde'
+              isEventInProcess
             />
 
             <EventCard
@@ -39,6 +41,7 @@ export default function Home() {
               date='septiembre 10, 2024'
               endDate='septiembre 11, 2024'
               eventGoal='Capacitar a los participantes en el uso de IA en proyectos web'
+              isEventInProcess
             />
 
             <EventCard
@@ -47,6 +50,7 @@ export default function Home() {
               date='octubre 20, 2024'
               endDate='octubre 21, 2024'
               eventGoal='Premiar la creatividad y la eficiencia en el desarrollo frontend'
+              isEventInProcess
             />
           </div>
         </section>
